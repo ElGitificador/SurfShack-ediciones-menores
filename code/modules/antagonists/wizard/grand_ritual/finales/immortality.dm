@@ -15,7 +15,7 @@
 	icon = 'icons/obj/mining_zones/artefacts.dmi'
 	icon_state = "asclepius_active"
 	glow_colour = COLOR_PALE_GREEN
-	minimum_time = 30 MINUTES // This is enormously disruptive but doesn't technically in of itself end the round.
+	minimum_time = 0 MINUTES 
 
 /datum/grand_finale/immortality/trigger(mob/living/carbon/human/invoker)
 	new /obj/effect/temp_visual/immortality_blast(get_turf(invoker))

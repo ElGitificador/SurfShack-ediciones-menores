@@ -9,7 +9,7 @@
 		YOU WILL NOT SURVIVE THIS."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "legion_head"
-	minimum_time = 90 MINUTES // This will probably immediately end the round if it gets finished.
+	minimum_time = 0 MINUTES
 	ritual_invoke_time = 60 SECONDS // Really give the crew some time to interfere with this one.
 	dire_warning = TRUE
 	glow_colour = "#be000048"
